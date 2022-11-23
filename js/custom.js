@@ -124,13 +124,13 @@ jQuery(function ($) {
   $(".testimonial-nav").slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 400,
     arrows: false,
     slidesToShow: 1,
     slide: "li",
     autoplay: true,
     fade: true,
-    autoplaySpeed: 300,
+    autoplaySpeed: 2000,
     cssEase: "linear",
   });
 
