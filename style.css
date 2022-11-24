@@ -2240,9 +2240,6 @@ i.fa.fa-angle-double-right {
 .archives li>a>span {
   float: right;
 }
-
-.sidebar-widget>ul li {}
-
 .sidebar-widget>ul li>a {
   display: block;
   padding: 5px;
@@ -2255,6 +2252,10 @@ i.fa.fa-angle-double-right {
 
 .sidebar-widget>ul li>a>span {
   margin-right: 5px;
+}
+
+#success {
+  padding-top: var(--section-background);
 }
 
 /*--------------------*/
