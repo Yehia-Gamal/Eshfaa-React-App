@@ -3705,6 +3705,10 @@ a.gallery-iteam:hover .image-effect::before {
   .slider-text p {
     font-size: 20px;
   }
+  .row.footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media(max-width:480px) {
