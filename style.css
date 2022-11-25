@@ -172,7 +172,8 @@ img {
 }
 
 .Whatsapp-conact img {
-  width: 100%;
+  width: 60px;
+  height: 60px;
 }
 
 svg:not(:root) {
@@ -1407,8 +1408,8 @@ svg:not(:root) {
   opacity: 1;
   top: 55%;
   z-index: 10000;
-  max-height: 100vh;
-  font-size: 12px;
+  max-height: 80vh;
+  font-size: 15px;
 }
 
 .card .pup-img {
@@ -1418,6 +1419,12 @@ svg:not(:root) {
   margin-top: -75px;
 }
 
+.card p {
+  color: #000;
+  max-height: 250px;
+  overflow-x: auto;
+  text-align: left;
+}
 .card h2 {
   font-size: 22px;
   font-weight: bold;
@@ -3691,7 +3698,7 @@ a.gallery-iteam:hover .image-effect::before {
   }
 
   .top-slide-inner {
-    height: 400px;
+    height: 230px;
   }
 
   .slider-text {

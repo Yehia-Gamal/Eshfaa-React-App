@@ -87,7 +87,7 @@ jQuery(function ($) {
     infinite: true,
     speed: 300,
     slide: "li",
-    // autoplay: true,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
