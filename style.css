@@ -93,12 +93,12 @@ img {
 }
 
 .about h2 {
-  color: #313338;
-  font-size: 30px;
+  margin: 50px 0 0;
+}
+
+.about h4 {
   font-weight: 700;
-  line-height: 40px;
-  padding-bottom: 10px;
-  margin: 20px 0 0;
+  color: #313338;
 }
 
 .about .h2-box {
