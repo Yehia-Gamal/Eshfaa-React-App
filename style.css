@@ -755,6 +755,7 @@ svg:not(:root) {
 
 .service-icon-effect:before {
   speak: none;
+  speak-as: none;
   font-size: 48px;
   line-height: 90px;
   font-style: normal;
