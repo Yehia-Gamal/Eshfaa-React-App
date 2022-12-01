@@ -1,1 +1,26 @@
-!function(){var t;t=mina.easeinout,[].slice.call(document.querySelectorAll(".tdoctor")).forEach(function(e){var a=Snap(e.querySelector("svg")).select("path"),o={from:a.attr("d"),to:e.getAttribute("data-path-to")};e.addEventListener("mouseenter",function(){a.animate({path:o.to},250,t)}),e.addEventListener("mouseleave",function(){a.animate({path:o.from},250,t)})})}();
+(function() {
+	
+	function init() {
+		var speed = 250,
+			easing = mina.easeinout;
+
+		[].slice.call ( document.querySelectorAll( '.tdoctor' ) ).forEach( function( el ) {
+			var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+				pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-to' )
+				};
+
+			el.addEventListener( 'mouseenter', function() {
+				path.animate( { 'path' : pathConfig.to }, speed, easing );
+			} );
+
+			el.addEventListener( 'mouseleave', function() {
+				path.animate( { 'path' : pathConfig.from }, speed, easing );
+			} );
+		} );
+	}
+
+	init();
+
+})();
