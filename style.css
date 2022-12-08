@@ -728,11 +728,20 @@ svg:not(:root) {
 
 .service-icon-effect img {
   display: inline-block;
-  margin: -2px;
-  width: 100px;
-  height: 100px;
+  margin: -27px;
+  width: 150px;
+  height: 150px;
   position: relative;
   z-index: 1;
+}
+
+.service-icon-effect.onsite img {
+  margin: -24px;
+  width: 140px;
+  height: 140px;
+}
+.service-icon-effect.home img {
+  margin: -29px;
 }
 
 .service-icon-effect .icon-mid {
