@@ -990,11 +990,11 @@ svg:not(:root) {
   height: 100px;
   z-index: 1;
   top: -17px;
-  left: -15px;
+  left: -16px;
 }
 
 .media-icon .value-person {
-  left: -17px;
+  left: -18px;
 }
 
 .whyChoose-right .media-heading {
