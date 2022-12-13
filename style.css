@@ -112,6 +112,10 @@ img {
   margin: 0 auto 15px;
 }
 
+.about .line-values {
+  margin: 0 auto 40px;
+}
+
 @media (max-width: 767px) {
   .about .row-box {
     flex-direction: column;
@@ -120,7 +124,7 @@ img {
 
 /* Preloader */
 #preloader {
-  position: fixed;
+  position: none;
   top: 0;
   left: 0;
   right: 0;
@@ -946,7 +950,7 @@ svg:not(:root) {
 /*--------------------*/
 
 #counterSection {
-  background-image: url(images/counter-bg2.WebP);
+  background-image: url(images/gallery/counter-bg2.WebP);
   background-repeat: no-repeat;
   background-position: 100%;
   background-color: #222;
@@ -1280,7 +1284,7 @@ svg:not(:root) {
 }
 
 .doctors-nav .slick-next {
-  background-image: url("images/team-next-icon.png");
+  background-image: url("images/icons/team-next-icon.png");
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -1288,7 +1292,7 @@ svg:not(:root) {
 }
 
 .doctors-nav .slick-prev {
-  background-image: url("images/team-prev-icon.png");
+  background-image: url("images/icons/team-prev-icon.png");
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -3859,6 +3863,4 @@ a.gallery-iteam:hover .image-effect::before {
   #respond input[type="url"] {
     width: 100%;
   }
-
-
 }
