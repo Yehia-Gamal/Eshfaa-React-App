@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  font-family: 'Habibi', serif;
+  /* font-family: 'Habibi', serif; */
+  font-family: sans-serif;
   overflow-x: hidden !important;
 }
 
@@ -668,6 +669,7 @@ p.why-eshfaa-p {
 
 .opening-hours {
   background-color: #fff;
+  padding: 0 8px;
 }
 
 .opening-hours>span {
@@ -698,6 +700,11 @@ p.why-eshfaa-p {
 
 .opening-table li div.value {
   float: right;
+}
+
+iframe.video-youtube {
+  width: 100%;
+  height: 100%;
 }
 
 /*--------------------*/
@@ -1106,7 +1113,6 @@ p.why-eshfaa-p {
   position: relative;
   overflow: hidden;
   margin: 5px;
-  background: #333;
 }
 
 .doctors-nav figure img {
@@ -1116,7 +1122,7 @@ p.why-eshfaa-p {
   height: 335px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
-  opacity: 0.7;
+  opacity: 1;
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   -webkit-transition: opacity 0.3s;
@@ -1193,8 +1199,13 @@ p.why-eshfaa-p {
 .doctors-nav figcaption h2,
 .doctors-nav figcaption p,
 .doctors-nav figure button {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -moz-transform: translatey(0);
+  -ms-transform: translatey(0);
+  -o-transform: translatey(0);
+  -webkit-transform: translatey(0);
+  transform: translatey(0)
 }
 
 /* Style for SVG */
@@ -1231,7 +1242,7 @@ p.why-eshfaa-p {
 }
 
 .doctors-nav a:hover figcaption p {
-  opacity: 0;
+  opacity: 1;
 }
 
 .doctors-nav figure button,
@@ -1242,13 +1253,13 @@ p.why-eshfaa-p {
   background: transparent;
   color: #fff;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  opacity: 0;
-  -moz-transform: translatey(-50%) translatex(-50%) scale(0.25);
-  -ms-transform: translatey(-50%) translatex(-50%) scale(0.25);
-  -o-transform: translatey(-50%) translatex(-50%) scale(0.25);
-  -webkit-transform: translatey(-50%) translatex(-50%) scale(0.25);
-  transform: translatey(-50%) translatex(-50%) scale(0.25)
+  filter: alpha(opacity=1);
+  opacity: 1;
+  -moz-transform: translatey(-50%) translatex(-50%) scale(1);
+  -ms-transform: translatey(-50%) translatex(-50%) scale(1);
+  -o-transform: translatey(-50%) translatex(-50%) scale(1);
+  -webkit-transform: translatey(-50%) translatex(-50%) scale(1);
+  transform: translatey(-50%) translatex(-50%) scale(1);
 }
 
 .doctors-nav a:hover figure button,
@@ -1830,7 +1841,7 @@ figure.blog-figure:hover .image-effect::before {
 .footer-service li>a {
   color: #555;
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   padding: 6px 0;
   margin: 0 0 15px;
   -moz-transition: all 0.5s;
