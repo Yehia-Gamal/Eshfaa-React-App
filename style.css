@@ -360,8 +360,7 @@ svg:not(:root) {
 }
 
 .lang-earth a {
-  padding: 8px 0 0 !important;
-  /* pointer-events: none; */
+  padding: 10px 0 0 !important;
   line-height: 0 !important;
 }
 
@@ -2234,6 +2233,17 @@ i.fa.fa-angle-double-right {
   padding-top: var(--section-background);
 }
 
+@media (max-width: 767px) {
+  #blogArchive .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .blog-breadcrumbs-right .breadcrumb {
+    margin-bottom: 10px;
+  }
+}
+
 /*--------------------*/
 /* BLOG DETAILS */
 /*--------------------*/
@@ -3373,7 +3383,7 @@ a.gallery-iteam:hover .image-effect::before {
 @media(max-width:1199px) {
   .navbar-default .navbar-nav>li>a {
     padding: 20px 10px;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .navbar-brand {
