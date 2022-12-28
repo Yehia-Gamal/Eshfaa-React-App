@@ -1736,7 +1736,8 @@ figure.blog-figure:hover .image-effect::before {
 .blog-author>ul>li {
   display: inline-block;
   padding: 5px;
-  color: #aaa;
+  color: var(--blue-theme);
+  font-size: 16px;
 }
 
 .blog-content {
@@ -3477,10 +3478,6 @@ a.gallery-iteam:hover .image-effect::before {
 
   .single-blog-right {
     width: 70%;
-  }
-
-  .blog-author>ul>li {
-    font-size: 12px;
   }
 
   .blogArchive-area .single-blog-right {
