@@ -2239,6 +2239,7 @@ i.fa.fa-angle-double-right {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .blog-breadcrumbs-right .breadcrumb {
     margin-bottom: 10px;
   }
@@ -3583,6 +3584,10 @@ a.gallery-iteam:hover .image-effect::before {
   .navbar-default .navbar-nav>li>a {
     padding: 10px;
     font-size: 20px;
+  }
+
+  .menu_area.home-blog .navbar-brand {
+    padding: 15px;
   }
 
   .lang-earth a p {
