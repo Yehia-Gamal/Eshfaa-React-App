@@ -789,8 +789,8 @@ iframe.video-youtube {
   display: inline-block;
   font-size: 0px;
   margin: 15px 30px;
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   text-align: center;
   position: relative;
@@ -799,11 +799,13 @@ iframe.video-youtube {
 
 .service-icon-effect img {
   display: inline-block;
-  margin: -27px;
-  width: 150px;
-  height: 150px;
+  margin: 7px;
+  width: 140px;
+  height: 140px;
   position: relative;
   z-index: 1;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .service-icon-effect.onsite img {
@@ -817,9 +819,9 @@ iframe.video-youtube {
 }
 
 .service-icon-effect .icon-mid {
-  width: 180px;
-  height: 70px;
-  margin: 9px -42px;
+  width: 100px;
+  height: 100px;
+  margin: 24px 11px;
 }
 
 .service-icon-effect:after {
@@ -1356,7 +1358,7 @@ iframe.video-youtube {
 }
 
 .doctors-nav .slick-next {
-  background-image: url("images/icons/team-next-icon.png");
+  background-image: url("images/icons/team-next-icon.WebP");
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
@@ -1364,7 +1366,7 @@ iframe.video-youtube {
 }
 
 .doctors-nav .slick-prev {
-  background-image: url("images/icons/team-prev-icon.png");
+  background-image: url("images/icons/team-prev-icon.WebP");
   background-position: center center;
   background-repeat: no-repeat;
   color: #fff;
