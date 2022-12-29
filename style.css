@@ -124,13 +124,14 @@ img {
 /* Whatsapp conact */
 
 .Whatsapp-conact {
-  bottom: 30px;
-  /* display: block; */
-  height: 60px;
+  bottom: 20px;
   position: fixed;
-  right: 30px;
-  width: 60px;
+  right: 20px;
   z-index: 1000;
+  width: 94px;
+  height: 94px;
+  background: #4ac534;
+  border-radius: 50%;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -138,15 +139,64 @@ img {
   transition: all 0.5s;
 }
 
-.Whatsapp-conact:hover,
-.Whatsapp-conact:focus {
-  transform: scale(1.1);
+.phone-conact,
+.Whatsapp-conact {
+  position: fixed;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-.Whatsapp-conact img {
-  width: 60px;
-  height: 60px;
+.phone-conact {
+  background-color: #2b76ff;
+  right: 20px;
+  bottom: 20px;
 }
+
+.Whatsapp-conact {
+  background-color: #4ac534;
+  right: 20px;
+  bottom: 80px;
+}
+
+.Whatsapp-conact i,
+.phone-conact i {
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.phone-conact i {
+  font-size: 27px;
+}
+
+.Whatsapp-conact i {
+  font-size: 37px;
+}
+
+.phone-conact:hover,
+.phone-conact:focus,
+.Whatsapp-conact:hover,
+.Whatsapp-conact:focus,
+.phone-conact:hover i,
+.phone-conact:focus i,
+.Whatsapp-conact:hover i,
+.Whatsapp-conact:focus i {
+  transform: scale(1.1) rotate(360deg);
+}
+
 
 svg:not(:root) {
   display: none;
