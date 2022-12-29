@@ -307,6 +307,7 @@ svg:not(:root) {
   font-size: 30px;
   font-weight: bold;
   margin-top: 5px;
+  padding: 14px 15px;
   width: 300px;
   text-align: left;
 }
@@ -3748,13 +3749,13 @@ a.gallery-iteam:hover .image-effect::before {
 @media(max-width:360px) {
   .navbar-brand {
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     width: 228px;
   }
 
   .navbar-default .navbar-brand {
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 0px;
   }
 
   .navbar-brand>i {
