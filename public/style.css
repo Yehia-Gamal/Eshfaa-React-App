@@ -1844,6 +1844,7 @@ figure.blog-figure:hover .image-effect::before {
 
 .single-footer-widget p i {
   color: var(--blue-theme);
+  margin-right: 5px;
 }
 
 .single-footer-widget p {
@@ -1878,7 +1879,8 @@ figure.blog-figure:hover .image-effect::before {
   margin: 0 0 20px;
 }
 
-.footer-service li>a {
+.footer-service li>a,
+.pup-footer {
   color: #555;
   display: block;
   font-size: 17px;
@@ -1889,9 +1891,11 @@ figure.blog-figure:hover .image-effect::before {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
+  border-bottom: 1px solid var(--blue-theme);
 }
 
-.footer-service li>a:hover {
+.footer-service li>a:hover
+.pup-footer:hover {
   text-decoration: none;
   outline: none;
 }
@@ -1899,6 +1903,16 @@ figure.blog-figure:hover .image-effect::before {
 .footer-service li>a span {
   margin-right: 8px;
 }
+.footer-service .pup-footer span {
+  margin-right: 8px;
+  color: var(--blue-theme);
+}
+
+.footer-service .pup-footer:hover {
+  color: var(--blue-theme);
+}
+
+
 
 i.fa.fa-angle-double-right {
   margin-left: 8px;
@@ -1962,11 +1976,13 @@ i.fa.fa-angle-double-right {
 .footer-copyright>p>a {
   text-decoration: none;
   outline: none;
-  border-bottom: 1px transparent;
+  border-bottom: 2px transparent;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s
+  transition: all 0.5s;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .footer-social {

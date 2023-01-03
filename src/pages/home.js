@@ -1,12 +1,86 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { ScriptHTMLAttributes } from "react";
-// import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
-
+import { Helmet } from "react-helmet";
 const Home = () => {
+  const show_pup_1 = () => {
+    document.getElementById("pup_1").classList.add("open");
+  };
+  const show_pup_2 = () => {
+    document.getElementById("pup_2").classList.add("open");
+  };
+  const show_pup_3 = () => {
+    document.getElementById("pup_3").classList.add("open");
+  };
+  const show_pup_4 = () => {
+    document.getElementById("pup_4").classList.add("open");
+  };
+  const show_pup_5 = () => {
+    document.getElementById("pup_5").classList.add("open");
+  };
+  const show_pup_6 = () => {
+    document.getElementById("pup_6").classList.add("open");
+  };
+  const show_pup_7 = () => {
+    document.getElementById("pup_7").classList.add("open");
+  };
+  const show_pup_8 = () => {
+    document.getElementById("pup_8").classList.add("open");
+  };
+  const show_pup_9 = () => {
+    document.getElementById("pup_9").classList.add("open");
+  };
+  const show_pup_10 = () => {
+    document.getElementById("pup_10").classList.add("open");
+  };
+
+  const hide_pup_1 = () => {
+    document.getElementById("pup_1").classList.remove("open");
+  };
+  const hide_pup_2 = () => {
+    document.getElementById("pup_2").classList.remove("open");
+  };
+  const hide_pup_3 = () => {
+    document.getElementById("pup_3").classList.remove("open");
+  };
+  const hide_pup_4 = () => {
+    document.getElementById("pup_4").classList.remove("open");
+  };
+  const hide_pup_5 = () => {
+    document.getElementById("pup_5").classList.remove("open");
+  };
+  const hide_pup_6 = () => {
+    document.getElementById("pup_6").classList.remove("open");
+  };
+  const hide_pup_7 = () => {
+    document.getElementById("pup_7").classList.remove("open");
+  };
+  const hide_pup_8 = () => {
+    document.getElementById("pup_8").classList.remove("open");
+  };
+  const hide_pup_9 = () => {
+    document.getElementById("pup_9").classList.remove("open");
+  };
+  const hide_pup_10 = () => {
+    document.getElementById("pup_10").classList.remove("open");
+  };
   return (
     <>
-      {/* Start Social media Buttons */}
+      <Helmet>
+        <script src="../js/jquery.js" type="text/javascript" />
+        <script src="../js/programs_pup.js" type="text/javascript" />
+        <script src="../js/bootstrap.min.js" type="text/javascript" />
+        <script src="../js/custom.js" type="text/javascript" />
+        <script src="../js/jquery.counterup.min.js" type="text/javascript" />
+        <script src="../js/modernizr.custom.79639.js" type="text/javascript" />
+        <script src="../js/photoswipe-gallery.js" type="text/javascript" />
+        <script
+          src="../js/photoswipe-ui-default.min.js"
+          type="text/javascript"
+        />
+        <script src="../js/photoswipe.min.js" type="text/javascript" />
+        <script src="../js/slick.min.js" type="text/javascript" />
+        <script src="../js/waypoints.min.js" type="text/javascript" />
+      </Helmet>
+      ;{/* Start Social media Buttons */}
       <a className="Whatsapp-conact" href="https://wa.me/+201200777738">
         <i className="fa-brands fa-whatsapp" />
       </a>
@@ -14,7 +88,6 @@ const Home = () => {
         <i className="fa fa-phone" />
       </a>
       {/* End Social media Buttons */}
-
       {/*=========== BEGIN HEADER SECTION ================*/}
       <header id="header">
         {/* BEGIN MENU */}
@@ -93,7 +166,6 @@ const Home = () => {
         {/* END MENU */}
       </header>
       {/*=========== END HEADER SECTION ================*/}
-
       {/*=========== BEGIN SLIDER SECTION ================*/}
       <section id="sliderArea">
         {/* Start slider wrapper */}
@@ -141,17 +213,17 @@ const Home = () => {
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              <img src="images/cover/cover-08.WebP" alt="cover-img" />
+              {/* <img src="images/cover/cover-08.WebP" alt="cover-img" /> */}
             </div>
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              <img src="images/cover/cover-09.WebP" alt="cover-img" />
+              {/* <img src="images/cover/cover-09.WebP" alt="cover-img" /> */}
             </div>
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              <img src="images/cover/cover-10.WebP" alt="cover-img" />
+              {/* <img src="images/cover/cover-10.WebP" alt="cover-img" /> */}
             </div>
           </div>
           {/* End Cover slide */}
@@ -279,6 +351,7 @@ const Home = () => {
                     href="https://drive.google.com/file/d/1MTxyW0dH0xzlMFRHKVeEXCgmDUJVc9st/view?usp=drivesdk"
                     target="_blank"
                     data-hover="Portfolio"
+                    rel="noreferrer"
                   >
                     <span>Portfolio</span>
                   </a>
@@ -458,7 +531,12 @@ const Home = () => {
                   <ul className="doctors-nav">
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_1()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_1();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-01.WebP"
@@ -468,18 +546,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_1()"
+                                onClick={() => {
+                                  show_pup_1();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_2()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_2();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-02.WebP"
@@ -489,18 +574,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_2()"
+                                onClick={() => {
+                                  show_pup_2();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_3()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_3();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-03.WebP"
@@ -510,18 +602,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_3()"
+                                onClick={() => {
+                                  show_pup_3();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_4()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_4();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-04.WebP"
@@ -531,18 +630,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_4()"
+                                onClick={() => {
+                                  show_pup_4();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_5()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_5();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-05.WebP"
@@ -552,18 +658,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_5()"
+                                onClick={() => {
+                                  show_pup_5();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_6()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_6();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-06.WebP"
@@ -573,18 +686,20 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_6()"
+                                onClick={() => {
+                                  show_pup_6();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_7()">
+                        <p className="tdoctor btn-show" onClick="show_pup_7()">
                           <figure>
                             <img
                               src="images/programs/programs-07.WebP"
@@ -594,18 +709,23 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_7()"
+                                onClick="show_pup_7()"
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_8()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_8();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-08.WebP"
@@ -615,18 +735,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_8()"
+                                onClick={() => {
+                                  show_pup_8();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_9()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_9();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-09.WebP"
@@ -636,18 +763,25 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_9()"
+                                onClick={() => {
+                                  show_pup_9();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor btn-show" onclick="show_pup_10()">
+                        <p
+                          className="tdoctor btn-show"
+                          onClick={() => {
+                            show_pup_10();
+                          }}
+                        >
                           <figure>
                             <img
                               src="images/programs/programs-10.WebP"
@@ -657,13 +791,15 @@ const Home = () => {
                             <figcaption>
                               <button
                                 className="btn-show"
-                                onclick="show_pup_10()"
+                                onClick={() => {
+                                  show_pup_10();
+                                }}
                               >
                                 View
                               </button>
                             </figcaption>
                           </figure>
-                        </a>
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -676,7 +812,13 @@ const Home = () => {
       {/*=========== Start Programs card.open SECTION ================*/}
       <div className="doctors-card">
         <div className="card" id="pup_1">
-          <button type="button" className="close" onclick="hide_pup_1()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_1();
+            }}
+          >
             ×
           </button>
           <img
@@ -697,12 +839,23 @@ const Home = () => {
             discounted services, without annual, monthly subscription fees or
             discount cards.
           </p>
-          <button className="btn-close" onclick="hide_pup_1()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_1();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_2">
-          <button type="button" className="close" onclick="hide_pup_2()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_2();
+            }}
+          >
             ×
           </button>
           <img
@@ -727,12 +880,23 @@ const Home = () => {
             ISO 45001/2018 for occupational health care &amp; safety management
             systems, with well-trained experienced staff.
           </p>
-          <button className="btn-close" onclick="hide_pup_2()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_2();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_3">
-          <button type="button" className="close" onclick="hide_pup_3()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_3();
+            }}
+          >
             ×
           </button>
           <img
@@ -756,12 +920,23 @@ const Home = () => {
             than others. Therefore, we proudly want you to discover our program
             "Eshfaa Charity"
           </p>
-          <button className="btn-close" onclick="hide_pup_3()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_3();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_4">
-          <button type="button" className="close" onclick="hide_pup_4()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_4();
+            }}
+          >
             ×
           </button>
           <img
@@ -818,12 +993,23 @@ const Home = () => {
             providers, we are ready to be your trusted homecare arm, with
             reliable quality for your employees &amp; customers.
           </p>
-          <button className="btn-close" onclick="hide_pup_4()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_4();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_5">
-          <button type="button" className="close" onclick="hide_pup_5()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_5();
+            }}
+          >
             ×
           </button>
           <img
@@ -889,12 +1075,23 @@ const Home = () => {
             telemedicine devices to monitor patients inside throughout their way
             for emergency hospitals.
           </p>
-          <button className="btn-close" onclick="hide_pup_5()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_5();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_6">
-          <button type="button" className="close" onclick="hide_pup_6()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_6();
+            }}
+          >
             ×
           </button>
           <img
@@ -933,12 +1130,23 @@ const Home = () => {
             what is more suitable for you &amp; your family, enjoying supporting
             &amp; advising from our insurance advisors.
           </p>
-          <button className="btn-close" onclick="hide_pup_6()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_6();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_7">
-          <button type="button" className="close" onclick="hide_pup_7()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_7();
+            }}
+          >
             ×
           </button>
           <img
@@ -990,12 +1198,23 @@ const Home = () => {
             concentration in your work &amp; activities with peace of mind with
             Eshfaa medical team
           </p>
-          <button className="btn-close" onclick="hide_pup_7()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_7();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_8">
-          <button type="button" className="close" onclick="hide_pup_8()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_8();
+            }}
+          >
             ×
           </button>
           <img
@@ -1039,12 +1258,23 @@ const Home = () => {
             supervision of quality director for best quality control &amp;
             quality assurance.
           </p>
-          <button className="btn-close" onclick="hide_pup_8()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_8();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_9">
-          <button type="button" className="close" onclick="hide_pup_9()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_9();
+            }}
+          >
             ×
           </button>
           <img
@@ -1065,12 +1295,23 @@ const Home = () => {
             clock …only for your safety <br />
             Now meet Eshfaa Peri-natal
           </p>
-          <button className="btn-close" onclick="hide_pup_9()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_9();
+            }}
+          >
             Close
           </button>
         </div>
         <div className="card" id="pup_10">
-          <button type="button" className="close" onclick="hide_pup_10()">
+          <button
+            type="button"
+            className="close"
+            onClick={() => {
+              hide_pup_10();
+            }}
+          >
             ×
           </button>
           <img
@@ -1101,7 +1342,12 @@ const Home = () => {
             return back to resume their work &amp; activities, with peace of
             mind &amp; enjoying Person-centered care.
           </p>
-          <button className="btn-close" onclick="hide_pup_10()">
+          <button
+            className="btn-close"
+            onClick={() => {
+              hide_pup_10();
+            }}
+          >
             Close
           </button>
         </div>
@@ -1595,6 +1841,7 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End partners of success SECTION ================*/}
+
       {/*=========== BEGAIN partners of success SECTION ================*/}
       <section id="meetDoctors">
         <div className="container">
@@ -1614,7 +1861,7 @@ const Home = () => {
                   <ul className="doctors-nav">
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1622,12 +1869,12 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1635,12 +1882,12 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1648,12 +1895,12 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1661,12 +1908,12 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1674,12 +1921,12 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1687,7 +1934,7 @@ const Home = () => {
                               alt="associations-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                   </ul>
@@ -1698,6 +1945,7 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End partners of success SECTION ================*/}
+
       {/*=========== BEGAIN Testimonial SECTION ================*/}
       <section id="testimonial">
         <div className="container">
@@ -1789,6 +2037,7 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End Testimonial SECTION ================*/}
+
       {/*=========== BEGAIN Home Blog SECTION ================*/}
       <section id="homeBLog">
         <div className="container">
@@ -1821,7 +2070,7 @@ const Home = () => {
                           <div className="blog-author">
                             <ul>
                               <li>
-                                By <a>Eshfaa</a>
+                                By <span>Eshfaa</span>
                               </li>
                             </ul>
                           </div>
@@ -1862,7 +2111,7 @@ const Home = () => {
                           <div className="blog-author">
                             <ul>
                               <li>
-                                By <a>Eshfaa</a>
+                                By <span>Eshfaa</span>
                               </li>
                             </ul>
                           </div>
@@ -1903,7 +2152,7 @@ const Home = () => {
                           <div className="blog-author">
                             <ul>
                               <li>
-                                By <a>Eshfaa</a>
+                                By <span>Eshfaa</span>
                               </li>
                             </ul>
                           </div>
@@ -2088,72 +2337,122 @@ const Home = () => {
                   </div>
                   <ul className="footer-service">
                     <li>
-                      <a onclick="show_pup_1()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_1();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa plus <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_2()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_2();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa on-site
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_3()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_3();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa charity
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_4()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_4();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa Homecare
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_5()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_5();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa Tele medicin
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_6()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_6();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa Family
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_7()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_7();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa geriatric
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_8()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_8();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa CDM <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_9()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_9();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa peri-natal
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a onclick="show_pup_10()">
+                      <span
+                        className="pup-footer"
+                        onClick={() => {
+                          show_pup_10();
+                        }}
+                      >
                         <span className="fa fa-check" />
                         Eshfaa special
                         <i className="fa fa-angle-double-right" />
-                      </a>
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -2168,12 +2467,8 @@ const Home = () => {
               <div className="footer-copyright col-md-12">
                 <p>
                   © Copyright 2022 &amp; Developed By
-                  <a
-                    rel="nofollow"
-                    target="_blank"
-                    href="https://yehia-gamal.github.io/CodeTechStation/"
-                  >
-                    CodeTechStation
+                  <a href="https://yehia-gamal.github.io/CodeTechStation/" rel="noreferrer" target="_blank">
+                      CodeTechStation
                   </a>
                 </p>
               </div>
@@ -2181,19 +2476,6 @@ const Home = () => {
           </div>
         </div>
       </footer>
-  <script src="js/jquery.js"></script>
-
-  <script src="js/programs_pup.js"></script>
-
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src='js/photoswipe.min.js'></script>
-  <script src='js/photoswipe-ui-default.min.js'></script>
-  <script src="js/photoswipe-gallery.js"></script>
-  <script src="js/custom.js"></script>
     </>
   );
 };
