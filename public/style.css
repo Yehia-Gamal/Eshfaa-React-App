@@ -929,6 +929,7 @@ iframe.video-youtube {
   opacity: 1
 }
 
+.single-service>h3 span
 .single-service>h3 a {
   color: #3e3e3e;
   -moz-transition: all 0.5s;
@@ -937,6 +938,8 @@ iframe.video-youtube {
   transition: all 0.5s
 }
 
+.single-service>h3 span:hover,
+.single-service>h3 span:focus,
 .single-service>h3 a:hover,
 .single-service>h3 a:focus {
   text-decoration: none;

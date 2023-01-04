@@ -1377,7 +1377,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Integrated homecare services</a>
+                          <span>Integrated homecare services</span>
                         </h3>
                       </div>
                     </div>
@@ -1394,7 +1394,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Laboratory Services</a>
+                          <span>Laboratory Services</span>
                         </h3>
                       </div>
                     </div>
@@ -1411,7 +1411,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Radiology &amp; Imaging Services</a>
+                          <span>Radiology &amp; Imaging Services</span>
                         </h3>
                       </div>
                     </div>
@@ -1428,7 +1428,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Physiotherapy &amp; Rehabilitation </a>
+                          <span>Physiotherapy &amp; Rehabilitation </span>
                         </h3>
                       </div>
                     </div>
@@ -1446,7 +1446,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Medication Management</a>
+                          <span>Medication Management</span>
                         </h3>
                       </div>
                     </div>
@@ -1463,7 +1463,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Hospital and Clinic booking</a>
+                          <span>Hospital and Clinic booking</span>
                         </h3>
                       </div>
                     </div>
@@ -1480,7 +1480,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Telemedicine Services</a>
+                          <span>Telemedicine Services</span>
                         </h3>
                       </div>
                     </div>
@@ -1497,7 +1497,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>ICUs, NICUs booking</a>
+                          <span>ICUs, NICUs booking</span>
                         </h3>
                       </div>
                     </div>
@@ -1514,7 +1514,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>Surgical Operations Coordination</a>
+                          <span>Surgical Operations Coordination</span>
                         </h3>
                       </div>
                     </div>
@@ -1531,7 +1531,7 @@ const Home = () => {
                           </span>
                         </div>
                         <h3>
-                          <a>On-Site Ambulance &amp; Services</a>
+                          <span>On-Site Ambulance &amp; Services</span>
                         </h3>
                       </div>
                     </div>
@@ -1601,7 +1601,7 @@ const Home = () => {
                   <ul className="doctors-nav">
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1609,12 +1609,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1622,12 +1622,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1635,12 +1635,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1648,12 +1648,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1661,12 +1661,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1674,12 +1674,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1687,12 +1687,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1700,12 +1700,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1713,12 +1713,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1726,12 +1726,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1739,12 +1739,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1752,12 +1752,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1765,12 +1765,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1778,12 +1778,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1791,12 +1791,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1804,12 +1804,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1817,12 +1817,12 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                     <li>
                       <div className="single-doctor">
-                        <a className="tdoctor">
+                        <div className="tdoctor">
                           <figure>
                             <img
                               className="success"
@@ -1830,7 +1830,7 @@ const Home = () => {
                               alt="partners-img"
                             />
                           </figure>
-                        </a>
+                        </div>
                       </div>
                     </li>
                   </ul>
@@ -1841,7 +1841,6 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End partners of success SECTION ================*/}
-
       {/*=========== BEGAIN partners of success SECTION ================*/}
       <section id="meetDoctors">
         <div className="container">
@@ -1945,7 +1944,6 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End partners of success SECTION ================*/}
-
       {/*=========== BEGAIN Testimonial SECTION ================*/}
       <section id="testimonial">
         <div className="container">
@@ -2037,7 +2035,6 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End Testimonial SECTION ================*/}
-
       {/*=========== BEGAIN Home Blog SECTION ================*/}
       <section id="homeBLog">
         <div className="container">
@@ -2183,7 +2180,6 @@ const Home = () => {
         </div>
       </section>
       {/*=========== End Home Blog SECTION ================*/}
-
       {/*=========== Start Footer SECTION ================*/}
       <footer id="footer">
         {/* Start Footer Top */}
@@ -2467,8 +2463,12 @@ const Home = () => {
               <div className="footer-copyright col-md-12">
                 <p>
                   © Copyright 2022 &amp; Developed By
-                  <a href="https://yehia-gamal.github.io/CodeTechStation/" rel="noreferrer" target="_blank">
-                      CodeTechStation
+                  <a
+                    href="https://yehia-gamal.github.io/CodeTechStation/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    CodeTechStation
                   </a>
                 </p>
               </div>
