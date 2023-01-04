@@ -368,6 +368,7 @@ svg:not(:root) {
   object-fit: cover;
   display: inline-block;
   margin-top: -10px;
+  margin-right: 5px;
   border-radius: 50%;
 }
 
