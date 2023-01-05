@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eshfaa/static/css/main.e6c13ad2.css",
+    "main.js": "/Eshfaa/static/js/main.1aeb8970.js",
+    "index.html": "/Eshfaa/index.html",
+    "main.e6c13ad2.css.map": "/Eshfaa/static/css/main.e6c13ad2.css.map",
+    "main.1aeb8970.js.map": "/Eshfaa/static/js/main.1aeb8970.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1aeb8970.js"
+  ]
+}
