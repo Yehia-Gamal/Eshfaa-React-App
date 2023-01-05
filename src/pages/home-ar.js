@@ -68,6 +68,10 @@ const HomeAr = () => {
           .navbar-default .navbar-nav>li>a {
             font-size: 16px;
           }
+
+            #sliderArea {
+            margin-top: 80px;
+          }
       
           .single-footer-widget p i {
             margin-left: 5px;
@@ -83,7 +87,7 @@ const HomeAr = () => {
           }
 
           .footer-service .pup-footer span {
-            margin-left: 8px;
+            margin: 0 0 0 8px;
           }
       
           @media (max-width: 767px) {

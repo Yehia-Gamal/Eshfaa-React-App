@@ -623,7 +623,7 @@ const FooterEn = () => {
                     <div className="line" />
                   </div>
                   <address className="contact-info">
-                    <p>
+                    <p className="home-location" style={{ fontSize: "15px" }}>
                       <span className="fa fa-home" /> 3 Makram Ebeid Street,
                       Nasr City, Cairo, Egypt
                     </p>

@@ -1,12 +1,83 @@
 import React from "react";
-import CardPupEn from "./card-pup-en";
-import FooterEn from "./footer-en";
+import { Helmet } from "react-helmet";
+import FooterAr from "./footer-ar";
 
 const LungAr = () => {
-
-  
   return (
     <>
+      <Helmet>
+        <html lang="ar" amp />
+        <title>إشفاء</title>
+
+        <style type="text/css">{`
+
+          @media (max-width: 767px) {
+            a.navbar-brand {
+              width: 100%;
+              display: flex;
+              align-items: center;
+            }
+
+            .about .section-heading p {
+              text-align: right !important;
+            }
+
+            .navbar-brand img {
+              margin-top: 0px !important;
+              margin-right: 5px !important;
+            }
+
+            .menu_area.home-blog .navbar-default .navbar-nav>li>a {
+              font-size: 20px !important;
+            }
+          }
+
+          .navbar-collapse.collapse {
+            margin-bottom: 10px;
+          }
+
+          .row {
+            direction: rtl
+          }
+
+          .single-footer-widget p i {
+            margin-left: 5px;
+          }
+
+          .footer-service li>a span {
+            margin: 0 0 0 5px !important;
+          }
+
+          i.fa.fa-angle-double-left {
+            margin: 0 5px 0 0 !important;
+            color: var(--blue-theme);
+          }
+
+          p {
+            direction: rtl;
+            font-size: 18px;
+          }
+
+          .card p {
+            text-align: right !important;
+          }
+
+          .navbar-default .navbar-nav>li>a {
+            font-size: 18px;
+          }
+
+          .footer-service .pup-footer span {
+            margin: 0 0 0 8px;
+          }
+
+          #header,
+          .footer-middle .footer-copyright p {
+            direction: ltr;
+        }
+
+        `}</style>
+      </Helmet>
+
       {/* Start Social media Buttons */}
       <a className="Whatsapp-conact" href="https://wa.me/+201200777738">
         <i className="fa-brands fa-whatsapp" />
@@ -49,6 +120,7 @@ const LungAr = () => {
         {/* END MENU */}
       </header>
       {/*=========== END HEADER SECTION ================*/}
+
       {/*=========== START BLOG SECTION ================*/}
       <section id="blogArchive">
         <div className="row">
@@ -514,7 +586,7 @@ const LungAr = () => {
                                   className="a-blog"
                                   href="https://www.clevelandclinicabudhabi.ae/ar/health-hub/health-library/pages/lung-cancer.aspx"
                                 >
-                                  https://www.clevelandclinicabudhabi.ae
+                                  https://www.clevelandclinicabudhabi
                                 </a>
                               </li>
                               <li>
@@ -539,11 +611,9 @@ const LungAr = () => {
         </div>
       </section>
       {/*=========== END BLOG SECTION ================*/}
-      {/*=========== Start Programs card.open SECTION ================*/}
-      <CardPupEn />
-      {/*=========== End Programs card.open SECTION ================*/}
+
       {/*=========== Start Footer SECTION ================*/}
-      <FooterEn />
+      <FooterAr />
       {/*=========== End Footer SECTION ================*/}
     </>
   );
