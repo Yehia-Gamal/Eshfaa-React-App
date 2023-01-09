@@ -1,6 +1,5 @@
 {
-  "homepage": "https://yehia-gamal.github.io/eshfaa-react-app",
-  "name": "eshfaa-react-app",
+  "name": "eshfaa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
