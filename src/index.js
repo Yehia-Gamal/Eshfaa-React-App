@@ -1,15 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-// import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter } from "react-router-dom";
 
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-// import Home from "./pages/home";
-// import Antibiotic from "./pages/blog-antibiotic";
 import App from "./App";
 
 // const router = createBrowserRouter([

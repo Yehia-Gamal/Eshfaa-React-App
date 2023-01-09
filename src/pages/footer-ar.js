@@ -584,7 +584,7 @@ const FooterAr = () => {
                     <div className="line" />
                   </div>
                   <address className="contact-info">
-                    <p className="home-location">
+                    <p className="home-location" style={{ fontSize: "16px" }}>
                       <span className="fa fa-home" /> 3 شارع مكرم عبيد، مدينة
                       نصر، القاهرة ،مصر
                     </p>
