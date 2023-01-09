@@ -184,17 +184,17 @@ const Home = () => {
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              {/* <img src="images/cover/cover-08.WebP" alt="cover-img" /> */}
+              <img src="images/cover/cover-08.WebP" alt="cover-img" />
             </div>
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              {/* <img src="images/cover/cover-09.WebP" alt="cover-img" /> */}
+              <img src="images/cover/cover-09.WebP" alt="cover-img" />
             </div>
           </div>
           <div className="top-slide-inner">
             <div className="slider-img">
-              {/* <img src="images/cover/cover-10.WebP" alt="cover-img" /> */}
+              <img src="images/cover/cover-10.WebP" alt="cover-img" />
             </div>
           </div>
           {/* End Cover slide */}
