@@ -20,6 +20,8 @@ body {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -1852,6 +1854,7 @@ figure.blog-figure:hover .image-effect::before {
 .single-footer-widget p i {
   color: var(--blue-theme);
   margin-right: 5px;
+  font-size: 18px;
 }
 
 .single-footer-widget p {
@@ -1859,7 +1862,8 @@ figure.blog-figure:hover .image-effect::before {
 }
 
 .single-footer-widget .home-location {
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .single-footer-widget p a {
