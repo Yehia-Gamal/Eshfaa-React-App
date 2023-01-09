@@ -89,7 +89,7 @@ const CardPupEn = () => {
           />
           <h2>Eshfaa on-site</h2>
           <p>
-            Are you seeking highly qualified onsite Healthcare service provider?{" "}
+            Are you seeking highly qualified onsite Healthcare service provider?
             <br />
             Discover our onsite healthcare program: <br />
             "Eshfaa Onsite" which is specifically designed for corporates &amp;
@@ -179,7 +179,7 @@ const CardPupEn = () => {
             integrated home Healthcare services with highest quality, affordable
             cost &amp; peace of mind, Where you can request all what you need
             from availabe homecare services &amp; find them from one place with
-            one team of professional case managers &amp; care coordinators.{" "}
+            one team of professional case managers &amp; care coordinators.
             <br />
             Now, with "Eshfaa Homecare" program you can design your customized
             homecare program &amp;request what you need from the following
@@ -332,7 +332,7 @@ const CardPupEn = () => {
             family, knowing EMR of each family member &amp; medical support team
             for case management &amp; care coordination for all healthcare
             services your family needs with variable choices, guidance, best
-            offers &amp; highest discounts? Or even full insurance coverage?{" "}
+            offers &amp; highest discounts? Or even full insurance coverage?
             <br />
             Discover "Eshfaa_family" program <br />
             For designing specifically tailored customized healthcare services

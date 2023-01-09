@@ -180,7 +180,7 @@ const Heart = () => {
                               result of the accumulation of fatty deposits in
                               the arteries and lead to lack of blood flow Blood
                               to the heart and may lead to a heart attack if a
-                              complete blockage of the coronary artery occurs.{" "}
+                              complete blockage of the coronary artery occurs.
                               <br />
                               There are many other reasons such as:
                             </p>

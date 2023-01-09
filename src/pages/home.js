@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import CardPupEn from "./card-pup-en";
 import FooterEn from "./footer-en";
+
 const Home = () => {
   // Pup Box Functions
   const show_pup_1 = () => {

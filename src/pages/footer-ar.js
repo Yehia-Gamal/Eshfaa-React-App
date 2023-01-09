@@ -275,7 +275,7 @@ const FooterAr = () => {
             الكمبيوتر المحمول أو باستخدام تطبيق ملائم. <br />
             2. للشركات: <br />
             يمكنك الاستمتاع بباقات جذابة بأسعار تنافسية وخصومات كبيرة على
-            الباقات الأعلى ، متوفرة لجميع موظفيك ، بجودة عالية وخفض التكلفة.{" "}
+            الباقات الأعلى ، متوفرة لجميع موظفيك ، بجودة عالية وخفض التكلفة.
             <br />
             3. للعاملين في الموقع في المصانع والآبار والمناجم في المناطق
             النائية: <br />
@@ -395,7 +395,7 @@ const FooterAr = () => {
             حول "الرعاية المرتكزة عليهم والتعاطف مع مشاعرهم واحتياجاتهم ،
             ومراعاة حساسياتهم لقبول الرعاية من الآخرين" يدار هذا البرنامج من قبل
             موظفين ذوي خبرة عالية من المتخصصين والإستشاريين في "طب المسنين"، وهم
-            نادرون جداً و محترفون للغاية في التعامل مع حالات كبار السن الطبية{" "}
+            نادرون جداً و محترفون للغاية في التعامل مع حالات كبار السن الطبية
             <br />
             مع تخصصات أخرى محددة مثل طب الأعصاب والطب النفسي والمسالك البولية
             وطب العيون والأنف والأذن والحنجرة والطب الباطني وأمراض القلب وغيرها
@@ -577,25 +577,27 @@ const FooterAr = () => {
         <div className="footer-top">
           <div className="container">
             <div className="row footer">
-            <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="single-footer-widget">
                   <div className="section-heading">
                     <h2>تواصل معنا</h2>
                     <div className="line" />
                   </div>
                   <address className="contact-info">
-                    <p className="home-location">
-                      <span className="fa fa-home" /> 3 شارع مكرم عبيد، مدينة
-                      نصر، القاهرة ،مصر
+                    <p className="home-location" style={{ fontSize: "16px" }}>
+                      <i className="fa fa-home" />
+                      3 شارع مكرم عبيد، مدينة نصر، القاهرة ،مصر
                     </p>
                     <p>
                       <a href="tel:+201200777738">
-                        <span className="fa fa-phone" /> 01200777738
+                        <i className="fa fa-phone" />
+                        01200777738
                       </a>
                     </p>
                     <p>
                       <a href="https://wa.me/+201200777738">
-                        <i className="fa-brands fa-whatsapp" /> 01200777738
+                        <i className="fa-brands fa-whatsapp" />
+                        01200777738
                       </a>
                     </p>
                     <p>
@@ -618,7 +620,7 @@ const FooterAr = () => {
                     </p>
                     <p>
                       <a href="https://m.youtube.com/channel/UCVeABOOrwFsw3gaHesQ8m9g/videos">
-                        <i className="fa-brands fa-youtube" />{" "}
+                        <i className="fa-brands fa-youtube" />
                         youtube.com/channel
                       </a>
                     </p>
@@ -630,7 +632,8 @@ const FooterAr = () => {
                     </p>
                     <p>
                       <a href="mailto:Info@eshfaa.com">
-                        <i className="fa-solid fa-envelope" /> Info@eshfaa.com
+                        <i className="fa-solid fa-envelope" />
+                        Info@eshfaa.com
                       </a>
                     </p>
                   </address>
@@ -667,7 +670,7 @@ const FooterAr = () => {
                     <li>
                       <a href="#service">
                         <span className="fa fa-check" />
-                        خدمات العلاج الطبيعي وإعادة التأهيل{" "}
+                        خدمات العلاج الطبيعي وإعادة التأهيل
                         <i className="fa fa-angle-double-left" />
                       </a>
                     </li>

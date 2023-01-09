@@ -146,7 +146,7 @@ const Lung = () => {
                               develop without any symptoms until it reaches
                               serious advanced stages of the disease, and this
                               is one of the factors that lead to its
-                              classification as a highly dangerous disease.{" "}
+                              classification as a highly dangerous disease.
                               <br />
                               There are some symptoms that can appear in the
                               early stages that indicate the presence of the
@@ -285,7 +285,7 @@ const Lung = () => {
                               alt=""
                             />
                             <p className="p-blog">
-                              There are many types of lung cancer, including:{" "}
+                              There are many types of lung cancer, including:
                               <br />
                               1_ Non-small cell lung cancer: <br />
                               It represents 80-85% of lung cancer types, and is
@@ -316,7 +316,7 @@ const Lung = () => {
                               taking the full medical history and ordering some
                               tests to prove or deny the disease. <br />
                               1. Examination of blood chemistry. <br />
-                              2. Checking the concentration of blood gases.{" "}
+                              2. Checking the concentration of blood gases.
                               <br />
                               3. Imaging tests: through which tumor masses can
                               be detected
@@ -355,7 +355,7 @@ const Lung = () => {
                             <p className="p-blog">
                               People at high risk of developing lung cancer
                               should have an annual screening by computed
-                              tomography (CT) scan for the following people:{" "}
+                              tomography (CT) scan for the following people:
                               <br />
                             </p>
                             <ul className="ul-blog">
@@ -409,7 +409,7 @@ const Lung = () => {
                               cancer cells. <br />
                               It may help relieve symptoms associated with
                               cancer, such as pain, and is used before or after
-                              surgery and is usually combined with chemotherapy.{" "}
+                              surgery and is usually combined with chemotherapy.
                               <br />
                               3. Chemotherapy: <br />
                               These are certain medications taken by mouth or
@@ -427,7 +427,7 @@ const Lung = () => {
                               Lung cancer and the side effects of treatments
                               cause severe and painful symptoms for patients,
                               and it is necessary to focus on some treatment
-                              methods to reduce the severity of these symptoms.{" "}
+                              methods to reduce the severity of these symptoms.
                               <br />
                               In addition , some people in the advanced stages
                               of the disease can choose not to complete the

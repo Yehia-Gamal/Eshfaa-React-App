@@ -7,10 +7,10 @@
 // 5. COUNTER
 // 6. DOCTORS TEAM SLIDER(SLICK SLIDER)
 // 7. TESTIMONIAL SLIDER(SLICK SLIDER)
-// 8. PRELOADER
-// 9. SCROLL TOP BUTTON
-// 10. ACCORDION
+// 8. SCROLL TOP BUTTON
+// 9. ACCORDION
 
+// eslint-disable-next-line no-undef
 jQuery(function ($) {
   /* ----------------------------------------------------------- */
   /*  1. DROPDOWN MENU
@@ -135,18 +135,7 @@ jQuery(function ($) {
   });
 
   /* ----------------------------------------------------------- */
-  /*  8. PRELOADER 
-	/* ----------------------------------------------------------- */
-
-  jQuery(window).load(function () {
-    // makes sure the whole site is loaded
-    $("#status").fadeOut(); // will first fade out the loading animation
-    $("#preloader").delay(100).fadeOut("slow"); // will fade out the white DIV that covers the website.
-    $("body").delay(100).css({ overflow: "visible" });
-  });
-
-  /* ----------------------------------------------------------- */
-  /*  9. SCROLL TOP BUTTON
+  /*  8. SCROLL TOP BUTTON
 	/* ----------------------------------------------------------- */
 
   //Check to see if the window is top if not then display button
@@ -167,7 +156,7 @@ jQuery(function ($) {
   });
 
   /* ----------------------------------------------------------- */
-  /*  10. Bootstrap Accordion
+  /*  9. Bootstrap Accordion
 	/* ----------------------------------------------------------- */
 
   $("#accordion .panel-collapse").on("shown.bs.collapse", function () {
